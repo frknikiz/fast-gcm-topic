@@ -1,0 +1,23 @@
+{
+    "name": "frknikiz/fast-gcm-topic",
+    "description": "Send messages to GCM(Google Cloud Messaging) topics.Easily send push notification to devices",
+    "keywords": ["fast","gcm", "topic","messaging","google","cloud","messaging","laravel","package","laravel 4.2"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Furkan İkiz",
+            "email": "frknikiz@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "php-curl-class/php-curl-class": "^3.6"
+    },
+    "autoload": {
+        "psr-0": {
+            "Frknikiz\\Fastgcmtopic\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
