@@ -1,6 +1,7 @@
 # Fast Gcm Topic#
 
-[![Join the chat at https://gitter.im/frknikiz/fast-gcm-topic](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/frknikiz/fast-gcm-topic?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/frknikiz/fast-gcm-topic](https://img.shields.io/badge/GITTER-join%20chat-green.svg)](https://gitter.im/frknikiz/fast-gcm-topic?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Total Downloads](https://poser.pugx.org/frknikiz/fast-gcm-topic/downloads)](https://packagist.org/packages/frknikiz/fast-gcm-topic) [![License](https://poser.pugx.org/frknikiz/fast-gcm-topic/license)](https://packagist.org/packages/frknikiz/fast-gcm-topic)
 
 Easily send push notifications to devices by using GCM(Google Cloud Messaging) Topics.
 > This packages is only available for Laravel 4.*
