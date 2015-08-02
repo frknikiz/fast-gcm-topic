@@ -43,7 +43,9 @@ Finally, You must enter key value that you got from Google Cloud Messaging API i
       'message'=>"World !!"
     );
 
-	FastGcmTopic::sendTopic($topic_link,$data);
+	$response=FastGcmTopic::sendTopic($topic_link,$data);
+	
+	dd($response);
 
 Output:
 
