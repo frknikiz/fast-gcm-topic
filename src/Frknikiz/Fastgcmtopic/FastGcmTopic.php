@@ -63,7 +63,7 @@
             $curl->setOpt(CURLOPT_SSL_VERIFYPEER, false);
             $curl->setHeader('Content-Type','application/json');
             $curl->setHeader('Authorization',"key=$this->key");
-            $curl->post($this->gcm_link,json_encode($data));
+            $curl->post($this->gcm_link,json_encode($data,JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES));
 
             if($curl->error)
             {
