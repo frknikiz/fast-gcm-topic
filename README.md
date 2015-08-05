@@ -16,7 +16,7 @@ Easily send push notifications to devices by using GCM(Google Cloud Messaging) T
 Begin by installing this package through Composer. Edit your project's `composer.json`
 
     "require": {
-    		"frknikiz/fast-gcm-topic":"dev-master"
+    		"frknikiz/fast-gcm-topic":"1.0.*"
     }
 
 
