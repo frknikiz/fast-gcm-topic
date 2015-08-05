@@ -59,6 +59,7 @@
                 'to'=>$topic,
                 'data'=>$param
             );
+
             $curl=new Curl();
             $curl->setOpt(CURLOPT_SSL_VERIFYPEER, false);
             $curl->setHeader('Content-Type','application/json');
